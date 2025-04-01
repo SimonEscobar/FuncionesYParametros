@@ -1,0 +1,12 @@
+Las funciones en Python permiten encapsular un conjunto de instrucciones para que se puedan ejecutar al llamarlas en cualquier parte del programa. Las funciones con parámetros nos permiten
+pasar información a esas funciones para que puedan hacer operaciones personalizadas.
+
+En Python, una función es un bloque de código que se define una sola vez, pero puede ser ejecutado múltiples veces a lo largo del programa. Las funciones se utilizan para reutilizar código,
+organizar el programa en bloques lógicos y facilitar la lectura.
+
+Componentes de una función:
+def: Palabra clave que indica que estamos definiendo una función.
+nombre_de_funcion: Es el nombre de la función. Este debe seguir las reglas de nombrado de Python (por ejemplo, no usar espacios ni palabras reservadas).
+parametros: Son los valores de entrada que la función acepta. Pueden ser uno o varios. Son como variables locales de la función.
+Bloque de código: Es el conjunto de instrucciones que se ejecutarán cuando se llame a la función.
+return: Es la palabra clave que devuelve un valor desde la función hacia el lugar donde se llamó. Es opcional; si no se usa, la función no devuelve nada (implícitamente devuelve None).
