@@ -1,0 +1,15 @@
+import math
+
+# Definimos la función
+def calcular_area_circulo(radio):
+    area = math.pi * radio ** 2  # Fórmula para el área de un círculo
+    return area
+
+# Llamamos a la función con un valor para el radio
+radio = 5
+area = calcular_area_circulo(radio)
+print(f"El área del círculo con radio {radio} es: {area}")
+
+Definimos la función calcular_area_circulo: La función toma un parámetro radio y usa la fórmula para calcular el área de un círculo (π * radio^2).
+Llamamos a la función: En este caso, pasamos el valor 5 como argumento para radio y la función devuelve el área correspondiente.
+Imprimimos el resultado con print().
